@@ -35,8 +35,8 @@ setup(
         "Flask",
         "redis",
     ],
-    extras_require={"tests": ["pytest"]},
-    tests_require=["pytest"],
+    extras_require={"tests": ["pytest", "pretend"]},
+    tests_require=["pytest", "pretend"],
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
