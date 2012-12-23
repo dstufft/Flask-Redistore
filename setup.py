@@ -20,7 +20,7 @@ class PyTest(TestCommand):
 
 setup(
     name="Flask-Redistore",
-    version="1.0",
+    version="1.0.1",
     url="",
     license="BSD",
     author="Donald Stufft",
