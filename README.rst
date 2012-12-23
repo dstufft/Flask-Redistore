@@ -1,6 +1,9 @@
 Flask Redistore
 ===============
 
+.. image:: https://travis-ci.org/dstufft/Flask-Redistore.png
+    :target: https://travis-ci.org/dstufft/Flask-Redistore
+
 Adds Redis to your Flask Appliation.
 
 Install
