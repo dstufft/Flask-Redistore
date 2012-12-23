@@ -38,7 +38,10 @@ Usage (advanced)
 
     def create_app(name=__name__):
         app = flask.Flask(name)
+        app.config["REDIS_URI"] = "redis://:password@localhost/0"
+
         redis.init_app(app)
+
         return app
 
     create_app()
