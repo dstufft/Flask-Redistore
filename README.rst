@@ -46,5 +46,6 @@ Usage (advanced)
         return app
 
     create_app()
+
     redis.set("My new key", "Another Value!")
     redis.get("My new key")
