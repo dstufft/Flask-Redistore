@@ -20,6 +20,7 @@ Usage
 
     app = flask.Flask(__name__)
     app.config["REDIS_URI"] = "redis://:password@localhost/0"
+
     redis = Redistore(app)
     redis.set("My key", "the value!")
     redis.get("My key")
